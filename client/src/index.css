@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.MainContainer{
+  background-color: aliceblue;
+  gap: 12px;
+}
+.card-img-top {
+  width: 100%;
+  height: 240px !important;
+}
+.CardContent{
+  height: 150px;
+}
+.outerWrapperShoppingCartIcon{
+  width: 25px;
+  height: 25px;
+}
+.PositionRelative{
+  position: relative;
+}
+.PositionAbsolute{
+  position: absolute
+}
+.outerWrapperCart{
+  width: 100%;
+  height: 410px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow-y: scroll;
+}
+.OuterWrapperCartBox{
+  transform:  translate(773px, 225px)  !important;
+  width: 32%;
+  z-index: 999;
+}
+.OuterWrapperCartImage{
+  width: 20%;
+}
+.FlexGap{
+  gap:12px
+}
+.CursorPointer{
+cursor: pointer;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+.BorderBottom{
+  border-bottom: 1px solid;
+}
+.BorderColor{
+  border-color: #E8E8E8;
+}
+.outerWrapperCartLength{
+  width: 2%;
+  height: 46%;
+  top: 3px;
+  right: 98px;
+  position: absolute;
+  border-radius: 50%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #F8971D;
+}
+.RemoveButton{
+  background-color: transparent !important;
+  color: red !important;
+  border-color: red !important;
+}
+.OuterWrapperImageDetailsPge{
+  width: 450px;
+  height: 340px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.outerWrapperContentDetailsPage{
+  gap: 40px;
+}
+.TitleDetailsPage{
+  color: #444444;
+  font-size: 25px;
+  font-weight: 700;
+}
+.BudgetDetailsPage{
+  color: #990000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.StoryDetailsPage{
+  color: #999999;
+  font-size: 14px;
+  font-weight: 500;
+}
+.FontSize14{
+font-size: 14px;
+
+}
+.DarkColor{
+  color: #333333;
+}
+.outerWrapperContentCart{
+  width: 270px;
+}
+.outerWrapperActorsImages{
+  width: 300px;
+  height: 230px;
+}
+.ActorsName{
+  font-size: 17px;
+  font-weight: 600;
+}
+.outerWrapperActorImagesDetailsPage{
+  width: 270px;
+  height: 180px;
+  border-radius: 5px;
+}
+.ImagesActorDetailPage{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.outerFrameActorImage{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+.WidthHeight-100{
+  height: 100%;
+  width: 100%;
+}
